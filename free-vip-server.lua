@@ -69,8 +69,8 @@ do
 			0xf7537e82,
 			0xbd3af235,
 			0x2ad7d2bb,
-			0xeb86d391
-		};
+			0xeb86d391,
+		}
 
 		local function add(a, b)
 			local lsw = bit32.band(a, 0xFFFF) + bit32.band(b, 0xFFFF)
